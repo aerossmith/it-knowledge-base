@@ -37,3 +37,7 @@ RAG, агенты, MCP, LLM, Claude, промпты, fine-tuning.
 | 31 | Installation - vLLM | [→](https://docs.vllm.ai/en/stable/getting_started/installation/) |
 | 32 | Как подключить ChatGPT, Claude и Gemini через один API: пошаговый гайд | [→](https://www.securitylab.ru/blog/personal/SimlpeHacker/360221.php) |
 | 33 | Быстрее в восемь раз, легче в четырнадцать. Новая ИИ-модель бьёт все рекорды, несмотря на свою компактность | [→](https://www.securitylab.ru/news/571221.php) |
+| 34 | Мой CLAUDE.md — 582 строки. Вот зачем | [→](https://habr.com/ru/articles/1022578/) |
+| 35 | 20+ лучших инструментов и гайдов Anthropic по ИИ | [→](https://habr.com/ru/articles/1021810/) |
+| 36 | Запускаю Gemma 4 локально в LM Studio: 51 токен/с и Claude Code без интернета | [→](https://habr.com/ru/companies/bothub/articles/1022574/) |
+| 37 | Как создать своего первого ИИ-агента за 30 минут | [→](https://habr.com/ru/companies/otus/articles/886050/) |
