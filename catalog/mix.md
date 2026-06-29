@@ -49,8 +49,10 @@
 | 43 | 57 книжных циклов для тех, кто любит эпичные истории (хватит на всё лето!) | [→](https://www.livelib.ru/news/post/296551-57-knizhnyh-tsiklov-dlya-teh-kto-lyubit-epichnye-istorii-hvatit-na-vsjo-leto) |
 | 44 | Сохраняйте на вечер: 7 фильмов, которые не хочется ставить на паузу | [→](https://www.iphones.ru/iNotes/novinki-kino-iyun-2026) |
 | 45 | Бэккер Р. - Тьма прежних времен, скачать бесплатно книгу в формате fb2, doc, rtf, html, txt | [→](https://royallib.com/book/bekker_r/tma_pregnih_vremen.html) |
-| 46 | Где живут звезды: 6 больших книг в жанре космической фантастики | Издательство АЗБУКА | [→](https://azbooka.ru/articles/gde-zhivut-zvezdy-6-bolshikh-knig-v-zhanre-kosmicheskoy-fantastiki) |
-| 47 | Новинки фэнтези от «Эксмо» на фестивале «Красная Площадь» | Блоги | Мир фантастики и фэнтези | [→](https://www.mirf.ru/book/novinki-fentezi-ot-eksmo-na-festivale-krasnaya-ploshchad) |
-| 48 | Что почитать из фантастики? Книжные новинки июня 2026-го | Книги | Мир фантастики и фэнтези | [→](https://www.mirf.ru/book/knijnye-novinki-iyun-2026) |
+| 46 | Где живут звезды: 6 больших книг в жанре космической фантастики | [→](https://azbooka.ru/articles/gde-zhivut-zvezdy-6-bolshikh-knig-v-zhanre-kosmicheskoy-fantastiki) |
+| 47 | Новинки фэнтези от «Эксмо» на фестивале «Красная Площадь» | [→](https://www.mirf.ru/book/novinki-fentezi-ot-eksmo-na-festivale-krasnaya-ploshchad) |
+| 48 | Что почитать из фантастики? Книжные новинки июня 2026-го | [→](https://www.mirf.ru/book/knijnye-novinki-iyun-2026) |
 | 49 | С мечом и луком по лесам: 20 минут игрового процесса Gothic 1 Remake | [→](https://www.goha.ru/s-mechom-i-lukom-po-lesam-20-minut-igrovogo-processa-gothic-1-remake-dB0nDB) |
-| 50 | Тысячеликий герой и мономиф: суть книги Джозефа Кэмпбелла | Книги | Мир фантастики и фэнтези | [→](https://www.mirf.ru/book/tysyachelikij-geroj-campbell) |
+| 50 | Тысячеликий герой и мономиф: суть книги Джозефа Кэмпбелла | [→](https://www.mirf.ru/book/tysyachelikij-geroj-campbell) |
+| 51 | Как встретились Нарния и Средиземье: история дружбы Джона Толкина и Клайва Льюиса | [→](https://www.kinopoisk.ru/media/article/4012809/) |
+| 52 | Врата тьмы — американский фильм ужасов с Николасом Кейджем (2015) | [→](https://ru.wikipedia.org/wiki/%D0%92%D1%80%D0%B0%D1%82%D0%B0_%D1%82%D1%8C%D0%BC%D1%8B) |
