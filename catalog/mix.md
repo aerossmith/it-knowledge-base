@@ -55,4 +55,3 @@
 | 49 | С мечом и луком по лесам: 20 минут игрового процесса Gothic 1 Remake | [→](https://www.goha.ru/s-mechom-i-lukom-po-lesam-20-minut-igrovogo-processa-gothic-1-remake-dB0nDB) |
 | 50 | Тысячеликий герой и мономиф: суть книги Джозефа Кэмпбелла | [→](https://www.mirf.ru/book/tysyachelikij-geroj-campbell) |
 | 51 | Как встретились Нарния и Средиземье: история дружбы Джона Толкина и Клайва Льюиса | [→](https://www.kinopoisk.ru/media/article/4012809/) |
-| 52 | Врата тьмы — американский фильм ужасов с Николасом Кейджем (2015) | [→](https://ru.wikipedia.org/wiki/%D0%92%D1%80%D0%B0%D1%82%D0%B0_%D1%82%D1%8C%D0%BC%D1%8B) |
