@@ -16,7 +16,7 @@ RAG, агенты, MCP, LLM, Claude, промпты, fine-tuning.
 | 10 | Память ИИ‑агентов: как агенты запоминают, забывают и учатся | [→](https://habr.com/ru/articles/1012894/) |
 | 11 | Как я перестал бояться Claude Code и научил его не ломать мои проекты | [→](https://habr.com/ru/articles/1013330/) |
 | 12 | AI-ассистент для алертов: как n8n + LLM | [→](https://habr.com/ru/articles/1011352/) |
-| 13 | Базовый минимум. Часть 4:  ИИ-агенты | [→](https://habr.com/ru/articles/1013540/) |
+| 13 | Базовый минимум. Часть 4: ИИ-агенты | [→](https://habr.com/ru/articles/1013540/) |
 | 14 | Квантизация с нуля: как запустить 160ГБ LLM на ноутбуке и не потерять в качестве | [→](https://habr.com/ru/articles/1015510/) |
 | 15 | Реализация MCP в Open WebUI. Часть 2 — Агентское поведение | [→](https://habr.com/ru/articles/1015158/) |
 | 16 | RAG или умный поиск по документам: как это работает | [→](https://habr.com/ru/articles/1016166/) |
@@ -32,7 +32,7 @@ RAG, агенты, MCP, LLM, Claude, промпты, fine-tuning.
 | 26 | Как я сделал скилл для AI-ревью плана и кода — и зачем мне две модели | [→](https://habr.com/ru/articles/1019588/) |
 | 27 | Мой фреймворк для агентной разработки с Claude Code | [→](https://habr.com/ru/articles/1022050/) |
 | 28 | Как Claude научился файн-тюнить опенсорсные LLM | [→](https://habr.com/ru/articles/973898/) |
-| 29 | Бесплатный курс по AI-агентам на русском языке \| AIStudy | [→](https://ai.arckep.ru/) |
+| 29 | Бесплатный курс по AI-агентам на русском языке &#124; AIStudy | [→](https://ai.arckep.ru/) |
 | 30 | Anthropic Courses | [→](https://anthropic.skilljar.com/) |
 | 31 | Installation - vLLM | [→](https://docs.vllm.ai/en/stable/getting_started/installation/) |
 | 32 | Как подключить ChatGPT, Claude и Gemini через один API: пошаговый гайд | [→](https://www.securitylab.ru/blog/personal/SimlpeHacker/360221.php) |

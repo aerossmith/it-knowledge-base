@@ -24,6 +24,6 @@ Kubernetes, Docker, Podman, контейнеры, оркестрация.
 | 18 | Kubernetes дома? Ты не в себе? Как с Cursor и без DevOps-опыта поднять приватный кластер для личных проектов | [→](https://habr.com/ru/companies/flant/articles/1043430/) |
 | 19 | Как строить отказоустойчивые кластеры Kubernetes: краткий разбор от команды VK Cloud | [→](https://habr.com/ru/companies/vktech/articles/1042084/) |
 | 20 | Best Practices по Dockerfile: от базового образа и кеша до SBOM, Cosign и CI/CD | [→](https://habr.com/ru/articles/1041784/) |
-| 21 | # Bare-metal Kubernetes на 5 VM: Calico IPIP + MetalLB + GitOps — честный опыт с граблями | [→](https://habr.com/ru/articles/1041356/) |
+| 21 | Bare-metal Kubernetes на 5 VM: Calico IPIP + MetalLB + GitOps — честный опыт с граблями | [→](https://habr.com/ru/articles/1041356/) |
 | 22 | Kubernetes: архитектура и абстракции — полный гайд | [→](https://habr.com/ru/companies/otus/articles/1022152/) |
 | 23 | От Kubernetes до AI Engineering: 5 главных трендов Технологического радара DevOpsConf 2026 | [→](https://habr.com/ru/companies/oleg-bunin/articles/1029442/) |
