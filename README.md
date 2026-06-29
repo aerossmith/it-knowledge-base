@@ -2,7 +2,7 @@
 
 > Личная база знаний: статьи, инструменты, ресурсы по DevOps, AI/LLM, инфраструктуре и не только.
 
-![Total](https://img.shields.io/badge/ссылок-272-blue?style=flat-square)
+![Total](https://img.shields.io/badge/ссылок-274-blue?style=flat-square)
 ![Categories](https://img.shields.io/badge/разделов-9-green?style=flat-square)
 ![Last update](https://img.shields.io/badge/обновлено-июнь_2026-orange?style=flat-square)
 
@@ -20,9 +20,9 @@
 | [🗄️ Базы данных](catalog/databases.md) | PostgreSQL, ClickHouse, SQL, OLAP/OLTP | 7 |
 | [💼 Карьера / Рынок / Размышления](catalog/career-thoughts.md) | IT-рынок, карьера, найм, размышления об индустрии | 12 |
 | [🛠️ Инструменты](catalog/tools.md) | Pulumi, GoAccess, vLLM, awesome-claude и другие | 17 |
-| [🎲 Микс](catalog/mix.md) | Книги, фантастика, православие, виски и прочее личное | 50 |
+| [🎲 Микс](catalog/mix.md) | Книги, фантастика, православие, виски и прочее личное | 52 |
 
-**Итого: 272 ссылки**
+**Итого: 274 ссылки**
 
 ---
 
