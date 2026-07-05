@@ -34,20 +34,80 @@
 
 ---
 
+## 🤖 RAG-пайплайн (Misty Garden)
+
+Семантический поиск по статьям с гибридной retrieving (dense + sparse, RRF fusion).
+
+### Стек
+
+- **Scraping**: trafilatura
+- **Embeddings**: BAAI/bge-m3 (dense 1024 + sparse, контекст 8192 токена)
+- **Vector DB**: Qdrant (Docker, hybrid search)
+- **RAG**: LangGraph + LM Studio (qwen-2.5-14b-instruct)
+- **API**: FastAPI (kb_api.py)
+- **MCP**: Claude Desktop интеграция
+- **Web UI**: Streamlit
+
+### Быстрый старт
+
+Сервисы (Qdrant + kb-api с моделью bge-m3) живут в Docker (WSL2) и стартуют сами при загрузке машины:
+
+```bash
+# 1. Поднять сервисы: Qdrant (:6333) + kb-api (:8000, модель запечена в образ)
+docker compose up -d --build
+
+# 2. Первичное наполнение (или пополнение) базы — Windows venv:
+pip install -r requirements.txt          # один раз
+python scrape_articles.py                # ~20-30 мин на полный каталог
+python index_articles.py                 # ~5 мин
+#    …или одной командой при обновлениях: .\update_kb.ps1
+
+# 3. Поиск через API
+curl --noproxy "*" -X POST http://localhost:8000/search -H "Content-Type: application/json" -d '{"query": "gitlab runner"}'
+
+# 4. RAG-чат (нужен LM Studio с моделью на :1234)
+python rag.py "Как настроить GitLab Runner?"
+
+# 5. Web UI
+streamlit run webui.py
+```
+
+> ⚠️ На машине с локальным прокси (HTTP_PROXY=127.0.0.1:…) все клиенты ходят к localhost
+> с `trust_env=False` / `--noproxy` — иначе 502 от прокси.
+
+### MCP для Claude Desktop
+
+Добавить в `claude_desktop_config.json`:
+
+```json
+"it-knowledge-base": {
+    "command": "C:\\Users\\alexandr.p\\source\\it-knowledge-base\\.venv\\Scripts\\python.exe",
+    "args": ["C:\\Users\\alexandr.p\\source\\it-knowledge-base\\mcp_server.py"]
+}
+```
+
+---
+
 ## 🛠️ Структура
 
 ```
 it-knowledge-base/
-├── README.md           # этот файл
-├── get_titles_v2.py    # скрипт для парсинга заголовков (с дедупом и inbox.txt)
-└── catalog/
-    ├── ai-llm.md
-    ├── k8s-docker.md
-    ├── cicd-gitlab.md
-    ├── linux-devops.md
-    ├── network-security.md
-    ├── databases.md
-    ├── career-thoughts.md
-    ├── tools.md
-    └── mix.md
+├── README.md
+├── catalog/              # каталоги ссылок (9 разделов)
+├── raw/                  # scraped текст (.gitignore)
+├── qdrant_storage/       # данные Qdrant (.gitignore)
+├── docker-compose.yml    # Qdrant + kb-api
+├── Dockerfile            # образ kb-api (torch cpu + запечённый bge-m3)
+├── requirements.txt      # полный набор для Windows venv (scrape/index/rag/ui)
+├── requirements-api.txt  # минимальный набор для контейнера kb-api
+├── update_kb.ps1         # инкрементальное пополнение: scrape → index
+├── scrape_articles.py    # Фаза 1: scraping
+├── index_articles.py     # Фаза 1: индексация
+├── kb_core.py            # общий модуль (модель + поиск)
+├── kb_api.py             # FastAPI HTTP API (:8000)
+├── mcp_server.py         # MCP stdio сервер
+├── rag.py                # LangGraph RAG + LM Studio
+├── webui.py              # Streamlit Web UI
+├── get_titles_v2.py      # парсинг заголовков
+└── AGENT_PROMPT.md       # ТЗ для агента
 ```

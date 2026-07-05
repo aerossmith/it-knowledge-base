@@ -1,0 +1,8 @@
+.venv/
+.git/
+qdrant_storage/
+raw/
+__pycache__/
+*.pyc
+.mimocode/
+catalog/

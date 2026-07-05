@@ -1,3 +1,6 @@
 titles_output.tsv
 __pycache__/
 *.pyc
+raw/
+qdrant_storage/
+.venv/
