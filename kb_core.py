@@ -11,6 +11,8 @@ from qdrant_client import QdrantClient, models
 import os
 
 QDRANT_URL = os.environ.get("QDRANT_URL", "http://localhost:6333")
+# HF repo id by default; container sets a local dir (onnx-free snapshot, no hub validation)
+BGE_M3_PATH = os.environ.get("BGE_M3_PATH", "BAAI/bge-m3")
 COLLECTION = "kb"
 
 CATEGORIES = [
@@ -21,7 +23,7 @@ CATEGORIES = [
 _model = None
 _client = None
 
-KB_API_URL = "http://127.0.0.1:8000"
+KB_API_URL = os.environ.get("KB_API_URL", "http://127.0.0.1:8000")
 
 
 def hybrid_search_api(query: str, category: str | None = None, top_k: int = 5) -> list[dict]:
@@ -54,7 +56,7 @@ def get_model():
         os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
         from FlagEmbedding import BGEM3FlagModel
         with contextlib.redirect_stdout(sys.stderr):
-            _model = BGEM3FlagModel("BAAI/bge-m3", use_fp16=True)
+            _model = BGEM3FlagModel(BGE_M3_PATH, use_fp16=True)
     return _model
 
 

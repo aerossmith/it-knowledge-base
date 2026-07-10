@@ -15,17 +15,19 @@ Register in claude_desktop_config.json (absolute paths):
     }
 """
 
+import os
+
 import httpx
 from mcp.server.fastmcp import FastMCP
 
-KB_API = "http://127.0.0.1:8000"
+KB_API = os.environ.get("KB_API_URL", "http://127.0.0.1:8000")
 
 mcp = FastMCP("it-knowledge-base")
 
 
 @mcp.tool()
 def kb_search(query: str, category: str | None = None, top_k: int = 5) -> list[dict]:
-    """Семантический поиск по личной базе знаний (222 технические статьи:
+    """Семантический поиск по личной базе технических знаний (~220 статей:
     DevOps, AI/LLM, Kubernetes, CI/CD, сети, базы данных).
 
     query: поисковый запрос на русском или английском.

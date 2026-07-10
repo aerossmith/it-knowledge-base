@@ -57,14 +57,20 @@ def load_indexed_urls() -> set[str]:
 
 
 def index_article(article: dict) -> int:
-    """Chunk, embed and upsert one article. Returns number of chunks."""
+    """Chunk, embed and upsert one article. Returns number of chunks.
+
+    Chunks are embedded with a "title [category]" prefix (poor man's contextual
+    retrieval — the title carries the document context lost at chunking), but the
+    payload keeps the original chunk text for clean LLM prompts.
+    """
     chunks = splitter.split_text(article["text"])
     if not chunks:
         return 0
+    prefix = f"{article['title']} [{article['category']}]\n\n"
     client = get_client()
     for start in range(0, len(chunks), BATCH_SIZE):
         batch = chunks[start : start + BATCH_SIZE]
-        dense, sparse = embed_texts(batch)
+        dense, sparse = embed_texts([prefix + c for c in batch])
         points = []
         for j, chunk in enumerate(batch):
             idx = start + j

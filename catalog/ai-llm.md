@@ -102,3 +102,4 @@ RAG, агенты, MCP, LLM, Claude, промпты, fine-tuning.
 | 96 | MCP-серверы для всей команды: от локального запуска, до централизованного доступа | [→](https://habr.com/ru/articles/1022288/) |
 | 97 | Немного про AI для догоняющих | [→](https://habr.com/ru/articles/1024904/) |
 | 98 | Как CEO, CTO и CIO за 8 часов собрали ИИ-директора, который умеет держать позицию под давлением | [→](https://habr.com/ru/articles/1024072/) |
+| 99 | Contextual Retrieval: техника, которая чинит главную проблему RAG за 50 центов на тысячу чанков | [→](https://habr.com/ru/companies/otus/articles/1054594/) |

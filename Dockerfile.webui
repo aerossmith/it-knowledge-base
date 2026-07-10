@@ -1,0 +1,12 @@
+# kb-webui: Streamlit UI + RAG chain. No torch — search goes through kb-api.
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# qdrant-client needed only because kb_core imports it at module level
+RUN pip install --no-cache-dir streamlit httpx langgraph langchain-openai langchain-core qdrant-client
+
+COPY kb_core.py rag.py webui.py ./
+
+EXPOSE 8501
+CMD ["streamlit", "run", "webui.py", "--server.address", "0.0.0.0", "--server.port", "8501", "--server.headless", "true"]

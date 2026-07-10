@@ -2,7 +2,7 @@
 
 > Личная база знаний: статьи, инструменты, ресурсы по DevOps, AI/LLM, инфраструктуре и не только.
 
-![Total](https://img.shields.io/badge/ссылок-273-blue?style=flat-square)
+![Total](https://img.shields.io/badge/ссылок-274-blue?style=flat-square)
 ![Categories](https://img.shields.io/badge/разделов-9-green?style=flat-square)
 ![Last update](https://img.shields.io/badge/обновлено-июнь_2026-orange?style=flat-square)
 
@@ -12,7 +12,7 @@
 
 | Раздел | Описание | Ссылок |
 |--------|----------|--------|
-| [🤖 AI / LLM / Агенты](catalog/ai-llm.md) | RAG, агенты, MCP, Claude, промпты, fine-tuning | 98 |
+| [🤖 AI / LLM / Агенты](catalog/ai-llm.md) | RAG, агенты, MCP, Claude, промпты, fine-tuning | 99 |
 | [🐳 Kubernetes / Docker](catalog/k8s-docker.md) | Kubernetes, Docker, Podman, контейнеры, оркестрация | 23 |
 | [🔄 CI/CD / GitLab / GitOps](catalog/cicd-gitlab.md) | GitLab CI/CD, GitOps, пайплайны, автоматизация деплоя | 17 |
 | [🐧 Linux / DevOps / Инфраструктура](catalog/linux-devops.md) | Linux, bash, VPS, DevOps, SRE, observability, бэкапы | 25 |
@@ -22,7 +22,7 @@
 | [🛠️ Инструменты](catalog/tools.md) | Pulumi, GoAccess, vLLM, awesome-claude и другие | 17 |
 | [🎲 Микс](catalog/mix.md) | Книги, фантастика, православие, виски и прочее личное | 51 |
 
-**Итого: 273 ссылки**
+**Итого: 274 ссылки**
 
 ---
 
@@ -65,11 +65,13 @@ python index_articles.py                 # ~5 мин
 # 3. Поиск через API
 curl --noproxy "*" -X POST http://localhost:8000/search -H "Content-Type: application/json" -d '{"query": "gitlab runner"}'
 
-# 4. RAG-чат (нужен LM Studio с моделью на :1234)
+# 4. RAG-чат (нужен LM Studio: `lms server start` + `lms load qwen-2.5-14b-instruct-1m-k-m`)
 python rag.py "Как настроить GitLab Runner?"
 
-# 5. Web UI
-streamlit run webui.py
+# 5. Web UI — живёт в docker compose: http://localhost:8501 (чат-вкладке нужен LM Studio)
+
+# 6. Проверка качества поиска после любой переиндексации
+python smoke_test.py
 ```
 
 > ⚠️ На машине с локальным прокси (HTTP_PROXY=127.0.0.1:…) все клиенты ходят к localhost

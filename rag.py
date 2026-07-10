@@ -8,6 +8,7 @@ Usage:
     python rag.py "Как настроить GitLab Runner?"
 """
 
+import os
 import sys
 from typing import TypedDict
 
@@ -18,7 +19,7 @@ from langgraph.graph import END, StateGraph
 
 from kb_core import hybrid_search_api
 
-LM_STUDIO_URL = "http://localhost:1234/v1"
+LM_STUDIO_URL = os.environ.get("LM_STUDIO_URL", "http://localhost:1234/v1")
 TOP_K = 5
 
 
