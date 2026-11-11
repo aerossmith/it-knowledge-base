@@ -2,7 +2,7 @@
 
 > Личная база знаний: статьи, инструменты, ресурсы по DevOps, AI/LLM, инфраструктуре и не только.
 
-![Total](https://img.shields.io/badge/ссылок-348-blue?style=flat-square)
+![Total](https://img.shields.io/badge/ссылок-345-blue?style=flat-square)
 ![Categories](https://img.shields.io/badge/разделов-9-green?style=flat-square)
 ![Last update](https://img.shields.io/badge/обновлено-ноябрь_2026-orange?style=flat-square)
 
@@ -12,7 +12,7 @@
 
 | Раздел | Описание | Ссылок |
 |--------|----------|--------|
-| [🤖 AI / LLM / Агенты](catalog/ai-llm.md) | RAG, агенты, MCP, Claude, промпты, fine-tuning | 129 |
+| [🤖 AI / LLM / Агенты](catalog/ai-llm.md) | RAG, агенты, MCP, Claude, промпты, fine-tuning | 126 |
 | [🐳 Kubernetes / Docker](catalog/k8s-docker.md) | Kubernetes, Docker, Podman, контейнеры, оркестрация | 28 |
 | [🔄 CI/CD / GitLab / GitOps](catalog/cicd-gitlab.md) | GitLab CI/CD, GitOps, пайплайны, автоматизация деплоя | 17 |
 | [🐧 Linux / DevOps / Инфраструктура](catalog/linux-devops.md) | Linux, bash, VPS, DevOps, SRE, observability, бэкапы | 34 |
@@ -22,7 +22,7 @@
 | [🛠️ Инструменты](catalog/tools.md) | Pulumi, GoAccess, vLLM, awesome-claude и другие | 21 |
 | [🎲 Микс](catalog/mix.md) | Книги, фантастика, православие, виски и прочее личное | 66 |
 
-**Итого: 348 ссылок**
+**Итого: 345 ссылок**
 
 ---
 
