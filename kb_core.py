@@ -10,9 +10,9 @@ from qdrant_client import QdrantClient, models
 
 import os
 
-# Ensure local loopback calls never get routed through external/corporate proxies
-for _k in ("HTTP_PROXY", "http_proxy", "HTTPS_PROXY", "https_proxy", "ALL_PROXY", "all_proxy"):
-    os.environ.pop(_k, None)
+# Proxy env vars are deliberately left intact: scrape_articles.py imports this module
+# and needs the user's proxy for geo-blocked sites. Local calls (Qdrant, kb_api)
+# bypass the proxy per-client via trust_env=False instead.
 
 QDRANT_URL = os.environ.get("QDRANT_URL", "http://127.0.0.1:6333")
 # HF repo id by default; container sets a local dir (onnx-free snapshot, no hub validation)
@@ -67,7 +67,8 @@ def get_model():
 def get_client() -> QdrantClient:
     global _client
     if _client is None:
-        _client = QdrantClient(url=QDRANT_URL)
+        # trust_env=False is forwarded to httpx: local Qdrant must bypass the user's proxy
+        _client = QdrantClient(url=QDRANT_URL, trust_env=False)
     return _client
 
 

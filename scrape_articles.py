@@ -20,6 +20,7 @@ import sys
 import time
 from urllib.parse import urlparse
 
+import httpx
 import trafilatura
 
 CATALOG_DIR = pathlib.Path("catalog")
@@ -79,8 +80,31 @@ def load_done_urls() -> set[str]:
     return done
 
 
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+)
+
+
+def fetch_html(url: str) -> str | None:
+    """Download via httpx, which honours HTTP(S)_PROXY from the environment.
+
+    trafilatura.fetch_url only uses a proxy when PySocks is installed and then
+    treats it as SOCKS — so geo-blocked sites always failed. trafilatura is kept
+    for extraction only.
+    """
+    try:
+        resp = httpx.get(url, headers={"User-Agent": USER_AGENT},
+                         follow_redirects=True, timeout=30)
+    except httpx.HTTPError:
+        return None
+    if resp.status_code != 200:
+        return None
+    return resp.text
+
+
 def scrape_url(url: str) -> dict | None:
-    downloaded = trafilatura.fetch_url(url)
+    downloaded = fetch_html(url)
     if not downloaded:
         return None
     result = trafilatura.extract(
