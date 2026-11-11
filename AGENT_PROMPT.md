@@ -1,4 +1,4 @@
-# ТЗ: it-knowledge-base → RAG Knowledge Base
+# ТЗ: Misty Garden — RAG Knowledge Base (репозиторий: it-knowledge-base)
 
 > Это самодостаточное задание для рабочего агента. Исходная идея проекта — в `VAR.md` (история,
 > НЕ актуальна как спецификация: стек там устарел). Актуальная спецификация — этот файл.
@@ -241,7 +241,7 @@ from mcp.server.fastmcp import FastMCP
 
 KB_API = "http://127.0.0.1:8000"
 
-mcp = FastMCP("it-knowledge-base")
+mcp = FastMCP("misty-garden")
 
 @mcp.tool()
 def kb_search(query: str, category: str | None = None, top_k: int = 5) -> list[dict]:

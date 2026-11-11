@@ -1,5 +1,8 @@
-# kb-api: hybrid search service (bge-m3 + Qdrant client)
+# Misty Garden — hybrid search API (bge-m3 + Qdrant client)
 FROM python:3.12-slim
+
+LABEL org.opencontainers.image.title="Misty Garden — search API" \
+      org.opencontainers.image.description="Hybrid (dense+sparse, RRF) search API for the Misty Garden knowledge base"
 
 WORKDIR /app
 

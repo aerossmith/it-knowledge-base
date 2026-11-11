@@ -103,3 +103,33 @@ RAG, агенты, MCP, LLM, Claude, промпты, fine-tuning.
 | 97 | Немного про AI для догоняющих | [→](https://habr.com/ru/articles/1024904/) |
 | 98 | Как CEO, CTO и CIO за 8 часов собрали ИИ-директора, который умеет держать позицию под давлением | [→](https://habr.com/ru/articles/1024072/) |
 | 99 | Contextual Retrieval: техника, которая чинит главную проблему RAG за 50 центов на тысячу чанков | [→](https://habr.com/ru/companies/otus/articles/1054594/) |
+| 100 | Как обучить локальную нейросеть на своих данных &#124; DigitalRazor | [→](https://digital-razor.ru/media/articles/technology/train-local-llm-own-data/) |
+| 101 | Whisper AI: нейросеть для распознавания речи и транскрибации | [→](https://practicum.yandex.ru/blog/neyroset-whisper-ai/) |
+| 102 | Векторные базы данных: зачем они нужны для RAG — журнал «Код» | [→](https://thecode.media/vektornaya-baza-dannyh-rag/) |
+| 103 | Гайд на Claude Sonnet 5.5: как настроить мышление и инструменты | [→](https://thecode.media/gajd-na-claude-sonnet-55-kak-nastroit-myshlenie-i-instrumenty/) |
+| 104 | Не начинать с LangChain: как спроектировать корпоративную GenAI платформу до реализации | [→](https://habr.com/ru/articles/1086836/) |
+| 105 | Один ИИ не воин: как собрать мультиагентную систему — журнал «Код» | [→](https://thecode.media/multiagentnye-sistemy-orkestrator-subagenty/) |
+| 106 | Kimi, MiniMax Code и ZCode в OpenResearch: форк за один вечер вместе с Claude Opus 5.5 | [→](https://habr.com/ru/articles/1086796/) |
+| 107 | Нейронные сети — Учебник по машинному обучению | [→](https://contest.yandex.ru/tracks/ml/deep-learning-introduction/neural-networks) |
+| 108 | DBA Agent в действии: 10 тысяч тикетов и 99,6% автоматизации второй линии поддержки | [→](https://habr.com/ru/companies/sberbank/articles/1086740/) |
+| 109 | Вышел гайд по Claude Opus 5.5 — привычные промпты теперь мешают | [→](https://thecode.media/vyshel-gajd-po-claude-opus-55-privychnye-prompty-teper-meshayut/) |
+| 110 | Qwen3.8 27B сжали до 5,9 ГБ и запустили на обычном ПК | [→](https://thecode.media/qwen38-27b-szhali-do-59-gb-i-zapustili-na-obychnom-pk/) |
+| 111 | Если ваши разработчики используют Claude Code, вы еще не автоматизировали разработку | [→](https://habr.com/ru/articles/1081076/) |
+| 112 | Как я собрал 10+ ИИ-агентов на Claude Code и Kaiten и почти вышел из операционки | [→](https://habr.com/ru/companies/kaiten/articles/1071596/) |
+| 113 | Строим RAG вручную: как это работает под капотом | [→](https://habr.com/ru/articles/1070662/) |
+| 114 | Локальный RAG: ИИ по внутренней базе знаний | [→](https://digital-razor.ru/media/articles/guides/local-rag-internal-documentation-on-premise/) |
+| 115 | Покажи мне свой харнесс — и я спрошу у Клода, кто ты | [→](https://habr.com/ru/articles/1068466/) |
+| 116 | Архитектурный паттерн «LangGraph, гибридный RAG + Сигнатурный движок»: универсальный граф для потоковых данных | [→](https://habr.com/ru/articles/1063584/) |
+| 117 | Советник Claude Code каждый раз напоминает о «сути проекта» — как писать CLAUDE.md с учетом официальной спецификации | [→](https://habr.com/ru/articles/1058718/) |
+| 118 | Using GPT-6 &#124; OpenAI API prompt guidance | [→](https://developers.openai.com/api/docs/guides/prompt-guidance-gpt-5p6) |
+| 119 | От Anthropic Cores к 4 слоям: Enterprise AI Harness на open source | [→](https://habr.com/ru/articles/1057942/) |
+| 120 | Anthropic изучила психологию Claude Sonnet 5: вот что не устраивает модель в ее же правилах | [→](https://habr.com/ru/news/1054150/) |
+| 121 | 12 факторов хорошего агента | [→](https://habr.com/ru/articles/1052896/) |
+| 122 | Жизнь после RAG: как мы построили ИИ-агента для анализа тикетов технической поддержки | [→](https://habr.com/ru/companies/ru_mts/articles/1051784/) |
+| 123 | Дал девяти популярным скиллам для Claude Code плацебо: два лучше пустышки, один хуже | [→](https://habr.com/ru/articles/1091984/) |
+| 124 | «Давайте просто развернём свою LLM на 1Т параметров»: что пришлось построить вокруг неё в Битрикс24 | [→](https://habr.com/ru/companies/bitrix/articles/1093038/) |
+| 125 | Диктовка без «ну» и «вот»: Whisper на своём компьютере и маленький посредник к LLM | [→](https://habr.com/ru/companies/miip/articles/1093468/) |
+| 126 | Избранное для сессий Claude Code | [→](https://habr.com/ru/articles/1096426/) |
+| 127 | Я считал SKILL‑ы бесполезной тратой токенов, пока не написал свой | [→](https://habr.com/ru/articles/1098866/) |
+| 128 | AI Factory — Конвейер создания AI-приложений (Datafinder) | [→](https://datafinder.ru/ai/engineering/ai-factory.html) |
+| 129 | Рой ИИ-агентов без начальника: дал им доску задач, git и право писать себе инструменты (DreamTeam, Habr) | [→](https://habr.com/ru/articles/1098900/) |

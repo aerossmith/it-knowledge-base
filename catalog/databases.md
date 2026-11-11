@@ -11,3 +11,6 @@ PostgreSQL, ClickHouse, SQL, OLAP/OLTP.
 | 5 | Как я собрал эталонный Data Engineering проект: ClickHouse, Kafka, Spark, dbt, Airflow и Superset за одну команду | [→](https://habr.com/ru/articles/1047304/) |
 | 6 | Слои и модели данных: какие бывают, как и кто с ними работает | [→](https://habr.com/ru/companies/yandex_praktikum/articles/1035558/) |
 | 7 | Как найти медленный запрос в PostgreSQL: три инструмента мониторинга | [→](https://habr.com/ru/companies/first/articles/1034434/) |
+| 8 | Мониторинг и логирование DWH, часть 2: Prometheus, Grafana, Zabbix, ELK, OpenSearch, Loki — как выбрать рабочий стек | [→](https://habr.com/ru/articles/1089004/) |
+| 9 | Ищем замену MinIO в условиях импортозамещения: опыт тестирования трех S3-совместимых хранилищ | [→](https://habr.com/ru/companies/rshb/articles/1088380/) |
+| 10 | Как переработать архитектуру хранилища и мигрировать часть нагрузки в Data Lakehouse | [→](https://habr.com/ru/companies/cloud_ru/articles/1060820/) |

@@ -21,3 +21,7 @@
 | 15 | Собрал MCP-сервер для Windows-администрирования: 42 инструмента, от Event Viewer до диагностики служб | [→](https://habr.com/ru/articles/1036210/) |
 | 16 | Бесплатные онлайн-курсы Git и GitHub: обучение с нуля в 2026 году | [→](https://habr.com/ru/articles/1032282/) |
 | 17 | Строим первую линию техподдержки на n8n за 250$ в месяц. Часть 1 | [→](https://habr.com/ru/articles/1034370/) |
+| 18 | Улучшение качества фото онлайн: 3 способа поднять разрешение прямо в браузере — обзор, гайд, примеры | [→](https://habr.com/ru/companies/tsnis/articles/1061210/) |
+| 19 | Langflow. Самый удобный визуальный редактор для оркестрации ИИ агентов | [→](https://habr.com/ru/companies/ruvds/articles/1058310/) |
+| 20 | LocalAI: Make AI run on every machine | [→](https://localai.io/) |
+| 21 | Краткий обзор Oh‑My‑Pi (OMP) — многофункциональный консольный агент для терминала | [→](https://habr.com/ru/articles/1098980/) |

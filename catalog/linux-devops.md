@@ -29,3 +29,12 @@ Linux, bash, VPS, DevOps, SRE, observability, бэкапы.
 | 23 | Приручаем железо: внедряем DevOps в промышленной разработке | [→](https://habr.com/ru/companies/otus/articles/1033476/) |
 | 24 | SELinux — Быстрый онбординг: типы, атрибуты, домены, политики и утилиты на практике | [→](https://habr.com/ru/articles/1035908/) |
 | 25 | Базированый Ansible | [→](https://habr.com/ru/articles/1033358/) |
+| 26 | Семь привычек Linux-инженера, которые спасают прод | [→](https://habr.com/ru/companies/k2tech/articles/1082726/) |
+| 27 | Как найти лишние процессы, открытые порты и подозрительные соединения на VDS | [→](https://habr.com/ru/companies/ruvds/articles/1085206/) |
+| 28 | Как я переносил работающую Windows-ВМ с Hyper-V на Proxmox, не выключая исходную машину | [→](https://habr.com/ru/articles/1085220/) |
+| 29 | Terraform для начинающих: инфраструктура как код — журнал «Код» | [→](https://thecode.media/terraform-dlya-nachinayushchih/) |
+| 30 | С нуля до Junior DevOps в 2026 году. Часть 7.2. Ansible в DevOps: Docker, Kubernetes, CI/CD и Terraform | [→](https://habr.com/ru/articles/1071014/) |
+| 31 | Как я автоматизировал сборку образов с Ansible и Packer и попал в community.ansible | [→](https://habr.com/ru/companies/cloud_ru/articles/1068806/) |
+| 32 | С нуля до Junior DevOps в 2026 году. Часть 7.1 Ansible: автоматизация настройки серверов | [→](https://habr.com/ru/articles/1068460/) |
+| 33 | Linux-переход | [→](https://habr.com/ru/articles/1062494/) |
+| 34 | Почему в Linux /bin, /usr/bin, /usr/local/bin… | [→](https://habr.com/ru/articles/1061260/) |

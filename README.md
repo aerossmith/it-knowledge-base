@@ -1,10 +1,10 @@
-# 📚 IT Knowledge Base
+# 🌫️ Misty Garden
 
 > Личная база знаний: статьи, инструменты, ресурсы по DevOps, AI/LLM, инфраструктуре и не только.
 
-![Total](https://img.shields.io/badge/ссылок-274-blue?style=flat-square)
+![Total](https://img.shields.io/badge/ссылок-348-blue?style=flat-square)
 ![Categories](https://img.shields.io/badge/разделов-9-green?style=flat-square)
-![Last update](https://img.shields.io/badge/обновлено-июнь_2026-orange?style=flat-square)
+![Last update](https://img.shields.io/badge/обновлено-ноябрь_2026-orange?style=flat-square)
 
 ---
 
@@ -12,17 +12,17 @@
 
 | Раздел | Описание | Ссылок |
 |--------|----------|--------|
-| [🤖 AI / LLM / Агенты](catalog/ai-llm.md) | RAG, агенты, MCP, Claude, промпты, fine-tuning | 99 |
-| [🐳 Kubernetes / Docker](catalog/k8s-docker.md) | Kubernetes, Docker, Podman, контейнеры, оркестрация | 23 |
+| [🤖 AI / LLM / Агенты](catalog/ai-llm.md) | RAG, агенты, MCP, Claude, промпты, fine-tuning | 129 |
+| [🐳 Kubernetes / Docker](catalog/k8s-docker.md) | Kubernetes, Docker, Podman, контейнеры, оркестрация | 28 |
 | [🔄 CI/CD / GitLab / GitOps](catalog/cicd-gitlab.md) | GitLab CI/CD, GitOps, пайплайны, автоматизация деплоя | 17 |
-| [🐧 Linux / DevOps / Инфраструктура](catalog/linux-devops.md) | Linux, bash, VPS, DevOps, SRE, observability, бэкапы | 25 |
-| [🔒 Сети / VPN / Безопасность](catalog/network-security.md) | VPN, сети, безопасность, RADIUS, HAProxy, SSH, AD | 23 |
-| [🗄️ Базы данных](catalog/databases.md) | PostgreSQL, ClickHouse, SQL, OLAP/OLTP | 7 |
-| [💼 Карьера / Рынок / Размышления](catalog/career-thoughts.md) | IT-рынок, карьера, найм, размышления об индустрии | 12 |
-| [🛠️ Инструменты](catalog/tools.md) | Pulumi, GoAccess, vLLM, awesome-claude и другие | 17 |
-| [🎲 Микс](catalog/mix.md) | Книги, фантастика, православие, виски и прочее личное | 51 |
+| [🐧 Linux / DevOps / Инфраструктура](catalog/linux-devops.md) | Linux, bash, VPS, DevOps, SRE, observability, бэкапы | 34 |
+| [🔒 Сети / VPN / Безопасность](catalog/network-security.md) | VPN, сети, безопасность, RADIUS, HAProxy, SSH, AD | 27 |
+| [🗄️ Базы данных](catalog/databases.md) | PostgreSQL, ClickHouse, SQL, OLAP/OLTP | 10 |
+| [💼 Карьера / Рынок / Размышления](catalog/career-thoughts.md) | IT-рынок, карьера, найм, размышления об индустрии | 16 |
+| [🛠️ Инструменты](catalog/tools.md) | Pulumi, GoAccess, vLLM, awesome-claude и другие | 21 |
+| [🎲 Микс](catalog/mix.md) | Книги, фантастика, православие, виски и прочее личное | 66 |
 
-**Итого: 274 ссылки**
+**Итого: 348 ссылок**
 
 ---
 
@@ -82,19 +82,23 @@ python smoke_test.py
 Добавить в `claude_desktop_config.json`:
 
 ```json
-"it-knowledge-base": {
+"misty-garden": {
     "command": "C:\\Users\\alexandr.p\\source\\it-knowledge-base\\.venv\\Scripts\\python.exe",
     "args": ["C:\\Users\\alexandr.p\\source\\it-knowledge-base\\mcp_server.py"]
 }
 ```
+
+> Имя сервера в конфиге — `"misty-garden"` (раньше было `"it-knowledge-base"`): при обновлении
+> переименуй ключ, иначе Claude Desktop поднимет два сервера с одним инструментом.
 
 ---
 
 ## 🛠️ Структура
 
 ```
-it-knowledge-base/
+misty-garden/           # репозиторий it-knowledge-base
 ├── README.md
+├── ROADMAP.md          # предложения по развитию
 ├── catalog/              # каталоги ссылок (9 разделов)
 ├── raw/                  # scraped текст (.gitignore)
 ├── qdrant_storage/       # данные Qdrant (.gitignore)

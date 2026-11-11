@@ -23,7 +23,7 @@ async def lifespan(app: FastAPI):
     yield
 
 
-app = FastAPI(title="it-knowledge-base search API", lifespan=lifespan)
+app = FastAPI(title="Misty Garden — search API", lifespan=lifespan)
 
 
 class SearchRequest(BaseModel):

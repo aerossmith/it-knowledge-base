@@ -27,3 +27,8 @@ Kubernetes, Docker, Podman, контейнеры, оркестрация.
 | 21 | Bare-metal Kubernetes на 5 VM: Calico IPIP + MetalLB + GitOps — честный опыт с граблями | [→](https://habr.com/ru/articles/1041356/) |
 | 22 | Kubernetes: архитектура и абстракции — полный гайд | [→](https://habr.com/ru/companies/otus/articles/1022152/) |
 | 23 | От Kubernetes до AI Engineering: 5 главных трендов Технологического радара DevOpsConf 2026 | [→](https://habr.com/ru/companies/oleg-bunin/articles/1029442/) |
+| 24 | Kubernetes просто, часть 4: как трафик попадает в кластер, NodePort и LoadBalancer | [→](https://habr.com/ru/articles/1086754/) |
+| 25 | Kubernetes просто, часть 2: что происходит после kubectl apply | [→](https://habr.com/ru/articles/1083100/) |
+| 26 | Kubernetes просто, часть 1: зачем Kubernetes, устройство кластера | [→](https://habr.com/ru/articles/1082088/) |
+| 27 | Из песочницы Compose в боевой Kubernetes: как я построил отказоустойчивую архитектуру за 5 месяцев | [→](https://habr.com/ru/articles/1067354/) |
+| 28 | Как мы перестали выдавать dev-VM вручную и собрали self-service на KubeVirt | [→](https://habr.com/ru/articles/1064376/) |

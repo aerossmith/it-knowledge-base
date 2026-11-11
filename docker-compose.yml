@@ -1,9 +1,9 @@
 services:
   qdrant:
     image: qdrant/qdrant:v1.18.2
-    container_name: kb-qdrant
+    container_name: misty-garden-qdrant
     ports:
-      - "127.0.0.1:6333:6333"   # REST + Web UI, loopback only — no LAN exposure
+      - "127.0.0.1:6333:6333"   # REST + Web UI
       - "127.0.0.1:6334:6334"   # gRPC
     volumes:
       - ./qdrant_storage:/qdrant/storage
@@ -17,7 +17,7 @@ services:
 
   kb-api:
     build: .
-    container_name: kb-api
+    container_name: misty-garden-api
     ports:
       - "127.0.0.1:8000:8000"
     environment:
@@ -37,7 +37,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.webui
-    container_name: kb-webui
+    container_name: misty-garden-webui
     ports:
       - "127.0.0.1:8501:8501"
     environment:

@@ -55,3 +55,18 @@
 | 49 | С мечом и луком по лесам: 20 минут игрового процесса Gothic 1 Remake | [→](https://www.goha.ru/s-mechom-i-lukom-po-lesam-20-minut-igrovogo-processa-gothic-1-remake-dB0nDB) |
 | 50 | Тысячеликий герой и мономиф: суть книги Джозефа Кэмпбелла | [→](https://www.mirf.ru/book/tysyachelikij-geroj-campbell) |
 | 51 | Как встретились Нарния и Средиземье: история дружбы Джона Толкина и Клайва Льюиса | [→](https://www.kinopoisk.ru/media/article/4012809/) |
+| 52 | Врата тьмы (фильм) | [→](https://ru.wikipedia.org/wiki/%D0%92%D1%80%D0%B0%D1%82%D0%B0_%D1%82%D1%8C%D0%BC%D1%8B) |
+| 53 | Хабр в X (Twitter) | [→](https://x.com/habr_com/status/2098033754661175359) |
+| 54 | Как поменялось освещение городов всего за четверть века: вид с МКС | [→](https://habr.com/ru/news/1079356/) |
+| 55 | За 13 часов изучаем Claude Code: практическое руководство | [→](https://www.threads.com/@i.salikov/post/Db5T0DfiPvL/%D0%B7%D0%B0-13-%D1%87%D0%B0%D1%81%D0%BE%D0%B2-%D0%B8%D0%B7%D1%83%D1%87%D0%B0%D0%B5%D0%BC-%D1%81laude-code-%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-%D1%81-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4/?hpir=1&http_ref=eyJ0cyI6MTc4NjU0MTcwNDAwMCwiciI6ImFuZHJvaWQtYXBwOlwvXC9jb20uZ29vZ2xlLmFuZHJvaWQuZ29vZ2xlcXVpY2tzZWFyY2hib3hcLyJ9) |
+| 56 | Okta: десятки ИИ-сервисов предлагают дешёвые подписки на Claude, но имеют доступ ко всем запросам пользователей | [→](https://cisoclub.ru/okta-desjatki-ii-servisov-predlagajut-deshjovye-podpiski-na-claude-no-imejut-dostup-ko-vsem-zaprosam-polzovatelej/) |
+| 57 | 12 ошибок при выборе мужских часов: размер, механизм и водозащита | [→](https://kronostime.ru/blog/watch-buying-mistakes/) |
+| 58 | Nexus Mods | [→](https://www.nexusmods.com/) |
+| 59 | Ретро-геймер собрал коллекцию почти 130 классических игр для обязательного прохождения | [→](https://shazoo.ru/2026/10/12/192277/retro-geimer-sobral-kollekciiu-pocti-130-klassiceskix-igr-dlia-obiazatelnogo-proxozdeniia) |
+| 60 | SecurityLab [Новость] | [→](https://www.securitylab.ru/news/578865.php) |
+| 61 | Не делайте NPC умнее игрока | [→](https://habr.com/ru/articles/1085546/) |
+| 62 | Хабр [404] | [→](https://habr.com/ru/articles/1046307) |
+| 63 | Хабр [Черновик] | [→](https://habr.com/ru/articles/1043878) |
+| 64 | Хабр [Черновик] | [→](https://habr.com/ru/articles/1042744) |
+| 65 | Bothub [Черновик] | [→](https://habr.com/ru/companies/bothub/articles/1028906) |
+| 66 | Хабр [Черновик] | [→](https://habr.com/ru/companies/ruvds/articles/1064194/) |

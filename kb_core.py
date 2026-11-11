@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Shared core for the knowledge base: bge-m3 model access and hybrid search.
+"""Shared core for Misty Garden: bge-m3 model access and hybrid search.
 
 Used by index_articles.py, mcp_server.py, rag.py and webui.py — do not duplicate
 embedding or search logic elsewhere.
@@ -10,7 +10,11 @@ from qdrant_client import QdrantClient, models
 
 import os
 
-QDRANT_URL = os.environ.get("QDRANT_URL", "http://localhost:6333")
+# Ensure local loopback calls never get routed through external/corporate proxies
+for _k in ("HTTP_PROXY", "http_proxy", "HTTPS_PROXY", "https_proxy", "ALL_PROXY", "all_proxy"):
+    os.environ.pop(_k, None)
+
+QDRANT_URL = os.environ.get("QDRANT_URL", "http://127.0.0.1:6333")
 # HF repo id by default; container sets a local dir (onnx-free snapshot, no hub validation)
 BGE_M3_PATH = os.environ.get("BGE_M3_PATH", "BAAI/bge-m3")
 COLLECTION = "kb"

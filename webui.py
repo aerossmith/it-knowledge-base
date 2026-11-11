@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Streamlit UI for the knowledge base: hybrid search + RAG chat.
+"""Streamlit UI for Misty Garden: hybrid search + RAG chat.
 
 Usage:
     streamlit run webui.py
@@ -10,8 +10,8 @@ import streamlit as st
 
 from kb_core import CATEGORIES, hybrid_search_api
 
-st.set_page_config(page_title="IT Knowledge Base", page_icon="📚", layout="wide")
-st.title("📚 IT Knowledge Base")
+st.set_page_config(page_title="Misty Garden", page_icon="🌫️", layout="wide")
+st.title("🌫️ Misty Garden")
 
 tab_search, tab_chat = st.tabs(["🔍 Поиск", "💬 Чат (RAG)"])
 

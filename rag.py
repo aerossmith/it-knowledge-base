@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Standalone RAG over the knowledge base: LangGraph (retrieve -> generate) + LM Studio.
+"""Standalone RAG for Misty Garden: LangGraph (retrieve -> generate) + LM Studio.
 
 Requires a model loaded in LM Studio (OpenAI-compatible server on localhost:1234).
 
@@ -39,7 +39,7 @@ llm = ChatOpenAI(
 )
 
 prompt = ChatPromptTemplate.from_template(
-    """Ты — помощник по личной базе знаний (DevOps, AI/LLM, инфраструктура).
+    """Ты — помощник по базе знаний Misty Garden (DevOps, AI/LLM, инфраструктура).
 Отвечай на вопрос ТОЛЬКО на основе контекста ниже.
 Если в контексте нет ответа — прямо скажи об этом, не выдумывай.
 В конце ответа перечисли URL использованных источников списком «Источники:».

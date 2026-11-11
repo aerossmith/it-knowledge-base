@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Smoke + retrieval quality test against the running kb-api.
+"""Smoke + retrieval quality test for Misty Garden against the running search API.
 
 Golden set: question -> URL fragment that must appear in top-5.
 Run after every reindex / model / chunking change:

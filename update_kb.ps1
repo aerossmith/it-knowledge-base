@@ -1,4 +1,4 @@
-# Incremental KB update: scrape new catalog URLs -> index into Qdrant.
+# Incremental Misty Garden update: scrape new catalog URLs -> index into Qdrant.
 # Run after adding new links to catalog/*.md (e.g. via inbox.txt + get_titles_v2.py).
 # Both steps are idempotent: already processed URLs are skipped.
 

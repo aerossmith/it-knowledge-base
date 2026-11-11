@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""MCP stdio server for the knowledge base — thin client over kb_api.py.
+"""MCP stdio server for Misty Garden — thin client over the search API (kb_api.py).
 
 No torch/model in this process: heavy lifting lives in the long-running
-kb_api service (localhost:8000), so this server starts instantly and the
+misty-garden-api service (localhost:8000), so this server starts instantly and the
 stdio JSON-RPC stream stays clean.
 
-Requires kb_api.py running:  .venv\\Scripts\\python.exe kb_api.py
+Requires the API service running:  .venv\\Scripts\\python.exe kb_api.py
+(или контейнер: docker compose up -d)
 
 Register in claude_desktop_config.json (absolute paths):
-    "it-knowledge-base": {
+    "misty-garden": {
         "command": "C:\\Users\\alexandr.p\\source\\it-knowledge-base\\.venv\\Scripts\\python.exe",
         "args": ["C:\\Users\\alexandr.p\\source\\it-knowledge-base\\mcp_server.py"]
     }
@@ -22,12 +23,12 @@ from mcp.server.fastmcp import FastMCP
 
 KB_API = os.environ.get("KB_API_URL", "http://127.0.0.1:8000")
 
-mcp = FastMCP("it-knowledge-base")
+mcp = FastMCP("misty-garden")
 
 
 @mcp.tool()
 def kb_search(query: str, category: str | None = None, top_k: int = 5) -> list[dict]:
-    """Семантический поиск по личной базе технических знаний (~220 статей:
+    """Семантический поиск по базе знаний Misty Garden (~290 технических статей:
     DevOps, AI/LLM, Kubernetes, CI/CD, сети, базы данных).
 
     query: поисковый запрос на русском или английском.
